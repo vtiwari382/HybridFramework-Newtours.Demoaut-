@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="newtours.demoaut automation test Suite">
+  
+  
+  <listeners>
+  <listener class-name="com.newtour.qa.utils.MyTransformer"></listener>
+  <listener class-name="com.newtour.qa.extentReportListner.ExtentReporterNG"/> 
+  <listener class-name="com.newtour.qa.utils.FailedTestScreenshot"></listener>
+  </listeners>
+  
+    
+  <test name="newtours.demoaut test case">
+  
+    <classes>
+      <class name="com.newtours.testcase.LoginPageTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [newtours.demoaut automation test Suite]">
+  <listeners>
+    <listener class-name="com.newtour.qa.utils.MyTransformer"/>
+    <listener class-name="com.newtour.qa.extentReportListner.ExtentReporterNG"/>
+    <listener class-name="com.newtour.qa.utils.FailedTestScreenshot"/>
+  </listeners>
+  <test name="newtours.demoaut test case(failed)">
+    <classes>
+      <class name="com.newtours.testcase.LoginPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="validateloginPageTitle"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.newtours.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- newtours.demoaut test case(failed) -->
+</suite> <!-- Failed suite [newtours.demoaut automation test Suite] -->

@@ -1,0 +1,8 @@
+com\newtour\qa\pages\RegistrationPage.class
+com\newtour\qa\utils\TestUtils.class
+com\newtour\qa\utils\RetryAnalyzer.class
+com\newtour\qa\utils\FailedTestScreenshot.class
+com\newtour\qa\utils\MyTransformer.class
+com\newtour\qa\pages\LoginPage.class
+com\newtour\qa\testbase\TestBase.class
+com\newtour\qa\extentReportListner\ExtentReporterNG.class
